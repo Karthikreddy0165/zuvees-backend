@@ -3,8 +3,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-console.log(process.env.PORT);
-console.log(process.env.DATABASE_URL)
+
 const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, () => {
